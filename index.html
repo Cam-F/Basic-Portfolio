@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
     
-<body style="background-circles-light.png">
+<body>
     <header role="banner">
         <h1>Cameron Fuller</h1>
+
+        <!-- Nav Bar -->
         <nav role="navigation">
             <div class="nav-menu-container">
                 <ul id="nav-menu">
@@ -21,6 +23,33 @@
             </div>
         </nav>
     </header>
+
+    <!-- NEED HELP WITH THIS SPACING -->
+    <div id="wrapper">
+    <section id="section1">
+        <h2>About Me</h2>
+        
+        <img src="assets/images/city.jpg" id="mainimg" alt="cityscape">
+        <p id="maintext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula sit amet elit tincidunt, nec aliquam mi malesuada. Sed commodo odio sit amet sapien faucibus volutpat. Mauris in nisl non orci tincidunt sagittis non sed velit. Quisque semper et nulla ut feugiat. Fusce at dolor nec ante feugiat placerat. Suspendisse dolor diam, tincidunt ut felis in, interdum suscipit turpis. Proin faucibus interdum dui, scelerisque faucibus lacus blandit a. Sed eu venenatis odio.
+        </p>
+    </section>
     
+    <!-- Connect Sidebar -->
+    <section id="section2">
+        <h3>Connect with Me</h3>
+        
+        <!-- 3 IMG LINKs -->
+        <div id="imglinks">
+            <a href="https://github.com/" target="_blank"><img src="assets/images/github.png"></a>
+            <a href="https://stackoverflow.com/" target="_blank"><img src="assets/images/stack.png"></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"><img src="assets/images/linkedin.png"></a>
+            <span class="stretch"></span>
+        </div>
+    </section>
+    </div>
+    <!-- Sticky Footer -->
+    <div class="footer">
+        <p>Copyright &copy; 2017 Cameron Fuller</p>
+    </div>
 </body>
 </html>

@@ -8,4 +8,4 @@ Basic 3 page personal profile.
 * CSS
 
 
-!(https://octodex.github.com/images/carlostocat.gif)
+![alt text](https://octodex.github.com/images/carlostocat.gif)

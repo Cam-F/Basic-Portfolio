@@ -7,5 +7,6 @@ Basic 3 page personal profile.
 * HTML
 * CSS
 
+#### Author
 
-![alt text](https://octodex.github.com/images/carlostocat.gif=250x)
+Cameron Fuller
